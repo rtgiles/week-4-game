@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<!Main Header>
+	
+	<div class="mainTitle">
+		<h1>Crystal Collector</h1>
+	</div>
+	
+	<! Set of instructions>
+
+	<div class="instructions">
+		<h2>Lets Play A Game !</h2>
+		</br>
+		<h3> Instructions </h3>
+		<ol>
+			<li> You will be given a random number at the start of the game.</li>
+			<li> There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score</li>
+			<li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number</li>
+			<li>The value of eacch crystal is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each crystal.</li>
+		</ol>
+	</div>	
+
+	<! 4 divs to place data>
+		
+		<!div for computer generated random number>
+
+		<div class="cmptGenNum">
+			<h3>Number to Match: <span id="ranNum"></span>
+			</h3>
+			
+		</div>
+		
+		<!div for tallies>
+
+		<div class="winsLosses">
+			<h3>Wins: <span id= "numWins"></span>
+				</br>
+				Losses: <span id="numLosses"></span>
+			</h3>
+		</div>
+		
+		<!div for 4 gems>
+		<div class="gems">
+
+			<img src="assets/images/bluegem.jpg" class=gem id="gem1">
+			<img src="assets/images/greengem.jpg" class=gem id="gem2">
+			<img src="assets/images/redgem.jpg" class=gem id="gem3">
+			<img src="assets/images/yellowgem.jpg" class=gem id="gem4">
+
+		</div>
+
+		<div class="userTally">
+			<h3>Your total score is: <span id="userTotal"></span> 
+			</h3>
+		</div>
+
+		<!jquery>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<! script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>

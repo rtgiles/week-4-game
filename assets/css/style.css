@@ -1,0 +1,69 @@
+/* Elements*/
+body{
+		background-image: url("../images/dark-geometric-backgrounds.jpg")
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+div{
+	margin: 10px;
+	width: 25%
+	border:; 
+	padding: 10px;
+}
+
+h1, h2, span{
+		color: white;
+		font-weight: bold;
+		text-align: center;
+}
+h3{
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+
+.mainTitle{
+	background-color: brown;
+	width: 50%;
+	text-align: center; 
+}
+
+
+
+.instructions{
+	color: white;
+	width: 50%;
+}
+
+/* CLASSES */
+
+.cmptGenNum, .winsLosses{
+	float: left;
+	width: 25%;
+	height: 100px;
+	background-color: blue;
+}
+
+
+
+.gem{
+	background-color: yellow;
+	height: 100px;
+	width: 7.5%;
+	padding:2.5px;
+	
+	}
+
+
+.userTally{
+	float: left;
+	width: 25%;
+	height: 100px;
+	background-color: green;
+}
+
+
